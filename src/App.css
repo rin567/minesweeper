@@ -1,4 +1,22 @@
-.App {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.app {
 	display: flex;
+	height: 100vh;
+	width: 100vw;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	background: #d7d6d6;
+}
+.mineweeper {
+	display: flex;
+	background: #c0c0c0;
+	border: 4px outset;
+	padding: 8px;
+	flex-direction: column;
+	gap: 8px;
 }

@@ -1,0 +1,6 @@
+.row {
+	display: flex;
+}
+.fieldContainer {
+	border: 4px inset;
+}

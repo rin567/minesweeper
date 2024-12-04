@@ -2,11 +2,13 @@ import './App.css'
 import Field from './components/field/Field'
 import Header from './components/header/Header'
 
-function App() {
+const App = () => {
 	return (
-		<div className='App'>
-			<Header />
-			<Field />
+		<div className='app'>
+			<div className='mineweeper'>
+				<Header />
+				<Field />
+			</div>
 		</div>
 	)
 }
